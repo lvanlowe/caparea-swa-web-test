@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/basic-sample",
+    "outDir": "./dist/caparea-swa-web-test",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,

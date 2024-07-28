@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "basic-sample": {
+    "caparea-swa-web-test": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -16,7 +16,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/basic-sample",
+            "outputPath": "dist/caparea-swa-web-test",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "basic-sample:build"
+            "browserTarget": "caparea-swa-web-test:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "basic-sample:build:production"
+              "browserTarget": "caparea-swa-web-test:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "basic-sample:build"
+            "browserTarget": "caparea-swa-web-test:build"
           }
         },
         "test": {
@@ -103,16 +103,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "basic-sample:serve"
+            "devServerTarget": "caparea-swa-web-test:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "basic-sample:serve:production"
+              "devServerTarget": "caparea-swa-web-test:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "basic-sample"
+  "defaultProject": "caparea-swa-web-test"
 }
